@@ -6,7 +6,7 @@ The course covers the following topics:
 
 - Introduction to Flexbox
 - Advanced Flexbox Resources
-- Limitations of Flexbox
+- Introduction GRID
 - Transforming the layout into GRID
 - Responsiveness with GRID
 - GRID container and its areas
