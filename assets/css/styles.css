@@ -2,7 +2,7 @@
     font-family: 'icones';
     src: url(../font/icones.ttf);
 }
-
+/*Header of Page*/
 body{
     background-color: #1D232A;
     font-family: 'Open Sans', 'icones', sans-serif;
@@ -29,7 +29,7 @@ body{
     width: 40px;
 }
 
-
+/*Sidebar*/
 .menu-lateral{
     display: flex;
     flex-direction: column;
@@ -96,8 +96,12 @@ body{
     content: "\e90a";
 }
 
+/*Main*/
+
 .principal{
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 .titulo-pagina{
     font-size: 1.5rem;
@@ -111,14 +115,18 @@ body{
     border-radius: 15px;
     overflow: hidden;
     background-color: #2C343A ;
+
 }
 
 .cartao__conteudo{
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: auto 1fr ;
+    gap: 8px;
 }
-
+.cartao--destaque{
+    margin-bottom: 16px;
+}
 .cartao__destaque{
     grid-column: span 2;
 }
@@ -160,10 +168,11 @@ body{
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before{
-    content: "\e90D";
+    content: "\e90b";
     font-size: 24px;
 
 }
@@ -173,4 +182,23 @@ body{
 }
 .cartao__botao--destaque::before{
     margin-right: 18px;
+}
+
+.secao{
+    display: grid;
+    gap: 16px;
+}
+.titulo-secao{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cartao__botao--comprar::before{
+    content: "\e901";
+    font-size: 24px;
+}
+
+.cartao__info--preco::before{
+    content: "\e905";
+    margin-right: 8px;
 }
