@@ -8,7 +8,7 @@ The course covers the following topics:
 - Advanced Flexbox Resources
 - Introduction GRID
 - Transforming the layout into GRID
-- Responsiveness with GRID
+- Responsive with GRID
 - GRID container and its areas
 
 ## How to use this repository
